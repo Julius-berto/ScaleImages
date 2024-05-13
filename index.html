@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+    <h1>El elemento Picture</h1>
+    <h3>Postres</h3><hr>
+    <p>Se presentarán cambios en el browser de acuerdo a la secuencia de imágenes que se tenga</p>
+
+    <picture>
+        <source media="(min-width: 1900px)" srcset="Images/Brownies.jpg">
+        <source media="(min-width: 1800px)" srcset="Images/Chocobananas.jpg">
+        <source media="(min-width: 1700px)" srcset="Images/Chocoflan.jpg">
+        <source media="(min-width: 1600px)" srcset="Images/Dulcedeleche.jpg">
+        <source media="(min-width: 1500px)" srcset="Images/Gelatinamarmolada.jpg">
+        <source media="(min-width: 1400px)" srcset="Images/Heladochocolate.jpg">
+        <source media="(min-width: 1300px)" srcset="Images/Malteadas.jpg">
+        <source media="(min-width: 1200px)" srcset="Images/Pastelmaracuya.jpg">
+        <source media="(min-width: 1100px)" srcset="Images/Pastelpina.jpg">
+        <source media="(min-width: 1000px)" srcset="Images/Paydelimon.jpg">
+        <source media="(min-width: 900px)" srcset="Images/Paydemoras.jpg">
+        <source media="(min-width: 800px)" srcset="Images/Postrefresa.jpg">
+        <source media="(min-width: 700px)" srcset="Images/Sufflechocolate.jpg">
+        <img src="Images/Tartakeso.jpg" alt="Postres para mamá" style="width: auto;">
+    </picture>
+</body>
+</html>
